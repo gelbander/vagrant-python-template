@@ -50,7 +50,7 @@ echo " >>>>> Installing security dependencies"
 pip install requests[security] --upgrade
 
 echo " >>>>> Installing global packages for python"
-pip install virtualenv virtualenvwrapper ipython
+pip install virtualenv virtualenvwrapper ipython ipdb
 
 # User installations
 echo " >>>>> User specific installations"
