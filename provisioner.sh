@@ -34,7 +34,7 @@ apt-get install -y build-essential autoconf libtool pkg-config python-opengl \
 python-imaging python-pyrex python-pyside.qtopengl idle-python2.7 \
 qt4-dev-tools qt4-designer libqtgui4 libqtcore4 libqt4-xml libqt4-test \
 libqt4-script libqt4-network libqt4-dbus python-qt4 python-qt4-gl libgle3 \
-libncurses5-dev libevent-dev libffi-dev libssl-dev
+libncurses5-dev libevent-dev libffi-dev libssl-dev libxml2-dev libxslt-dev
 # Dependencies for image processing with Pillow (drop-in replacement for PIL)
 # supporting: jpeg, tiff, png, freetype, littlecms
 apt-get install libjpeg-dev libtiff-dev zlib1g-dev libfreetype6-dev -y
